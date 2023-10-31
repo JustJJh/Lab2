@@ -23,7 +23,7 @@ def calc_average(numlist):
     Nlist = numlist
     avgVal = sum(Nlist)/len(Nlist)
     print(avgVal)
-    return avgVal
+    return round(avgVal,2)
 
 def find_min_max(numlist):
     List = numlist
